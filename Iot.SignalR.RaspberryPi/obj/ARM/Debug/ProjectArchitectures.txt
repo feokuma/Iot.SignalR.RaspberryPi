@@ -1,0 +1,1 @@
+C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi.csproj;arm

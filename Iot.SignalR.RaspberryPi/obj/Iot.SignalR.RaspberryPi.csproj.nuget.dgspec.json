@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\feoku\\Development\\dotnet-2.2\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\feoku\\Development\\dotnet-2.2\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\feoku\\Development\\dotnet-2.2\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj",
+        "projectName": "Iot.SignalR.RaspberryPi",
+        "projectPath": "C:\\Users\\feoku\\Development\\dotnet-2.2\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj",
+        "packagesPath": "C:\\Users\\feoku\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\feoku\\Development\\dotnet-2.2\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\feoku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Costura.Fody": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "IoT.FluentApi": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.IoT.Devices": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.8, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
