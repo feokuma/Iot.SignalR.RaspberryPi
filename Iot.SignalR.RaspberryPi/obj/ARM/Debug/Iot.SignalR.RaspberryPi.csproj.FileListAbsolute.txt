@@ -87,3 +87,6 @@ C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.Raspbe
 C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\obj\ARM\Debug\Microsoft.Extensions.Primitives\en-US\Microsoft.Extensions.Primitives.Resources.resw
 C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\obj\ARM\Debug\FxResources.System.IO.Pipelines.SR.resw
 C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\obj\ARM\Debug\FxResources.System.Threading.Channels.SR.resw
+C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Microsoft.Win32.Registry.dll
+C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\System.Device.Gpio.dll
+C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\obj\ARM\Debug\FxResources.Microsoft.Win32.Registry.SR.resw

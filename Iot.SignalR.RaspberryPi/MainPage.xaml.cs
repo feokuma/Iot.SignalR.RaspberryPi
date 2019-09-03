@@ -1,11 +1,11 @@
-﻿using Windows.Devices.Gpio;
-using Windows.UI.Xaml.Controls;
-using Microsoft.AspNetCore.SignalR.Client;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Diagnostics;
-using System.Drawing;
+using System.Threading.Tasks;
+using Windows.Devices.Gpio;
+using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
+
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 

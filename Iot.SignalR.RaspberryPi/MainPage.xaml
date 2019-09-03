@@ -10,16 +10,12 @@
 
     <StackPanel>
         <TextBlock Text="Hello World!!!" 
-                   FontSize="100" 
+                   FontSize="200" 
                    FontWeight="Bold" 
-                   Foreground="{x:Bind stateColor}"
-                   VerticalAlignment="Center" 
                    HorizontalAlignment="Center"/>
-        <Ellipse Width="50"
-                 Height="50"
-                 Fill="{x:Bind stateColor}"
-                 HorizontalAlignment="Center"
-                 VerticalAlignment="Center"
-                 Margin="300"/>
+        <Button Content="Ligar"
+                FontSize="200"
+                HorizontalAlignment="Center"
+                Margin="0,150"/>
     </StackPanel>
 </Page>

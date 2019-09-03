@@ -28,7 +28,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-iot/index.json": {}
         },
         "frameworks": {
           "uap10.0.17763": {
@@ -47,6 +48,10 @@
               "target": "Package",
               "version": "[1.0.0, )"
             },
+            "Iot.Device.Bindings": {
+              "target": "Package",
+              "version": "[0.1.0-prerelease.19369.3, )"
+            },
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
               "version": "[1.1.0, )"
@@ -58,6 +63,10 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.8, )"
+            },
+            "System.Device.Gpio": {
+              "target": "Package",
+              "version": "[0.1.0-prerelease.19369.3, )"
             }
           },
           "imports": [

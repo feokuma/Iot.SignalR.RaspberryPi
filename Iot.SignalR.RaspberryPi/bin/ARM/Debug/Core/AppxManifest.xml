@@ -60,66 +60,66 @@
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Adc.ADC0832" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Adc.MCP3208" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Adc.MCP3008" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Display.ST7735" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Display.SSD1306" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Display.ADA938" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Pwm.PCA9685" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Display.SSD1306" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Display.ST7735" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Pwm.SoftPwm" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.Switch" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.RotaryEncoder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Pwm.PCA9685" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.PushButton" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.SS944" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.Switch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Input.RotaryEncoder" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.IoT.Devices.Lights.RgbLed" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.ReactivePower" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Duration" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Flow" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.ElectricPotentialAc" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Torque" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Frequency" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Force" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Density" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Area" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.SpecificEnergy" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Temperature" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.ApparentPower" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Energy" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Ratio" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Information" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Length" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.KinematicViscosity" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Pressure" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.AmplitudeRatio" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.StonePounds" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.ForceChangeRate" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Level" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.ElectricAdmittance" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.BrakeSpecificFuelConsumption" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Volume" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Power" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.PowerRatio" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.TemperatureChangeRate" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.TemperatureDelta" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Energy" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.RotationalSpeed" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.PressureChangeRate" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.ForcePerLength" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Volume" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.Speed" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.VitaminA" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.UnitSystem" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.ElectricCurrent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.SpecificWeight" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.ForceChangeRate" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.ElectricPotential" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.FeetInches" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.AmplitudeRatio" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.StonePounds" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.Mass" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.ElectricPotentialDc" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.BrakeSpecificFuelConsumption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Information" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.ApparentPower" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.ElectricPotentialAc" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Level" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Temperature" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.Acceleration" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.MassFlow" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.ElectricCurrent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.PressureChangeRate" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.DynamicViscosity" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Power" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Angle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Duration" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.ForcePerLength" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Force" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Density" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.ElectricResistance" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Ratio" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.TemperatureChangeRate" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Frequency" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.PowerRatio" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.UnitSystem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.TemperatureDelta" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.SpecificEnergy" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.FeetInches" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Flow" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Torque" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.ElectricAdmittance" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Area" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.ReactivePower" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.Pressure" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.ElectricPotentialDc" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnitsNet.MassFlow" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.CustomCode.Extensions.ElectricPotentialExtensions" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.CustomCode.Extensions.AmplitudeRatioExtensions" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.CustomCode.Extensions.PowerExtensions" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="UnitsNet.CustomCode.Extensions.PowerRatioExtensions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Angle" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.Length" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="UnitsNet.SpecificWeight" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
@@ -129,7 +129,7 @@
     <build:Item Name="VisualStudio" Version="16.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
     <build:Item Name="OperatingSystem" Version="10.0.18362.1 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.29012.281" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.29110.182" />
     <build:Item Name="ProjectGUID" Value="{4FB31C65-36FE-47A6-99D8-55440642571C}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
