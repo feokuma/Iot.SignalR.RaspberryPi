@@ -19,6 +19,7 @@ namespace Iot.SignalR.RaspberryPi
 
         private GpioPin gpioPin { get; set; }
         public Brush stateColor { get; set; } = new SolidColorBrush(Windows.UI.Colors.Gray);
+        private HubConnection hubConnection;
 
 
         public MainPage()
@@ -39,7 +40,7 @@ namespace Iot.SignalR.RaspberryPi
 
         public async void ConnectSignalR()
         {
-            var hubConnection = new HubConnectionBuilder()
+            hubConnection = new HubConnectionBuilder()
                 .WithUrl("http://tdc-dotnet-iot.azurewebsites.net/IotServerHub")
                 .Build();
 
@@ -58,6 +59,7 @@ namespace Iot.SignalR.RaspberryPi
             {
                 await Task.Delay(new Random().Next(0, 5) * 1000);
                 await hubConnection.StartAsync();
+                await hubConnection.SendAsync("ReceiveStateFromDevice", (gpioPin.Read() == GpioPinValue.Low));
             };
 
             await hubConnection.StartAsync();
@@ -65,5 +67,18 @@ namespace Iot.SignalR.RaspberryPi
             await hubConnection.SendAsync("ReceiveStateFromDevice", pinState);
         }
 
+        private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            var state = (gpioPin.Read() == GpioPinValue.Low);
+
+            if (state)
+                gpioPin.Write(GpioPinValue.High);
+            else
+                gpioPin.Write(GpioPinValue.Low);
+
+            state = !state; 
+
+            hubConnection.SendAsync("ReceiveStateFromDevice", state);
+        }
     }
 }

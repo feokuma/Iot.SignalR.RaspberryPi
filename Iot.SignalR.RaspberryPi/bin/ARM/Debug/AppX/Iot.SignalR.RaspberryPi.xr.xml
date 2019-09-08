@@ -21,6 +21,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Iot.SignalR.RaspberryPi.MainPage" />
   </Roots.RootTypes>

@@ -10,13 +10,14 @@
 
     <StackPanel>
         <TextBlock Text="Hello World!!!" 
-                   FontSize="200" 
+                   FontSize="50" 
                    FontWeight="Bold" 
                    HorizontalAlignment="Center"/>
-        <Button Content="Ligar"
-                FontSize="200"
+        <Button x:ConnectionId='2' Content="Ligar"
+                FontSize="50"
                 HorizontalAlignment="Center"
-                Margin="0,150"/>
+                Margin="0,150"
+                                    />
     </StackPanel>
 </Page>
 

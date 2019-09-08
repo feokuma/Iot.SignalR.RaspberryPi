@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>82D04B20963EBED1FC944354B677A77061086B7BB9C56AF73B6ADFB6D71ED332</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>0EAF5391A89E9B9AE81C9B28B86510CAB52AD3043DF215E693E40A3C547BFC80</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b24b640c-9c77-4e7c-85f1-3cfb6fc0f396_1.0.0.0_arm__tf0tchpqmnngt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b24b640c-9c77-4e7c-85f1-3cfb6fc0f396_tf0tchpqmnngt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>b24b640c-9c77-4e7c-85f1-3cfb6fc0f396</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-21T04:41:45.018</Modified>
+      <Modified>2019-09-08T02:47:56.855</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Iot.SignalR.RaspberryPi.exe">
       <PackagePath>entrypoint\Iot.SignalR.RaspberryPi.exe</PackagePath>
-      <Modified>2019-07-21T04:41:42.885</Modified>
+      <Modified>2019-09-08T02:47:55.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\feoku\.nuget\packages\iot.fluentapi\1.0.0\lib\netcore\Porrey.Uwp.IoT.FluentApi.dll">
       <PackagePath>Porrey.Uwp.IoT.FluentApi.dll</PackagePath>
@@ -194,15 +194,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Iot.SignalR.RaspberryPi.xr.xml">
       <PackagePath>Iot.SignalR.RaspberryPi.xr.xml</PackagePath>
-      <Modified>2019-07-12T14:54:09.113</Modified>
+      <Modified>2019-09-08T02:47:55.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-07-21T04:41:42.568</Modified>
+      <Modified>2019-09-08T02:47:55.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-07-21T04:41:42.569</Modified>
+      <Modified>2019-09-08T02:47:55.690</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -218,11 +218,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-07-21T04:41:43.665</Modified>
+      <Modified>2019-09-08T00:57:07.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Core\Iot.SignalR.RaspberryPi.exe">
       <PackagePath>Iot.SignalR.RaspberryPi.exe</PackagePath>
-      <Modified>2019-07-21T04:41:45.004</Modified>
+      <Modified>2019-09-08T02:47:56.846</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
