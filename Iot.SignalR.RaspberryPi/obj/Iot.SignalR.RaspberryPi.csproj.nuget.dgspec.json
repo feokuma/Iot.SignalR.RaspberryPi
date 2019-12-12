@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\feoku\\Development\\dotnet-2.2\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj": {}
+    "C:\\Users\\feoku\\Dev\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\feoku\\Development\\dotnet-2.2\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj": {
+    "C:\\Users\\feoku\\Dev\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\feoku\\Development\\dotnet-2.2\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj",
+        "projectUniqueName": "C:\\Users\\feoku\\Dev\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj",
         "projectName": "Iot.SignalR.RaspberryPi",
-        "projectPath": "C:\\Users\\feoku\\Development\\dotnet-2.2\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj",
+        "projectPath": "C:\\Users\\feoku\\Dev\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi.csproj",
         "packagesPath": "C:\\Users\\feoku\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\feoku\\Development\\dotnet-2.2\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\obj\\",
+        "outputPath": "C:\\Users\\feoku\\Dev\\Iot.SignalR.RaspberryPi\\Iot.SignalR.RaspberryPi\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -28,8 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-iot/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "uap10.0.17763": {
@@ -48,10 +47,6 @@
               "target": "Package",
               "version": "[1.0.0, )"
             },
-            "Iot.Device.Bindings": {
-              "target": "Package",
-              "version": "[0.1.0-prerelease.19369.3, )"
-            },
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
               "version": "[1.1.0, )"
@@ -66,7 +61,7 @@
             },
             "System.Device.Gpio": {
               "target": "Package",
-              "version": "[0.1.0-prerelease.19369.3, )"
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

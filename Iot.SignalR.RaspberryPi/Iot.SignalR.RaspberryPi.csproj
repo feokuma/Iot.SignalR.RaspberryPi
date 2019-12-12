@@ -166,7 +166,7 @@
       <Version>6.2.8</Version>
     </PackageReference>
     <PackageReference Include="System.Device.Gpio">
-      <Version>0.1.0-prerelease.19369.3</Version>
+      <Version>1.0.0</Version>
     </PackageReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

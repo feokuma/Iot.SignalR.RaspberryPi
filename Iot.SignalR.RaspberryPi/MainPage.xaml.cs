@@ -41,7 +41,7 @@ namespace Iot.SignalR.RaspberryPi
         public async void ConnectSignalR()
         {
             hubConnection = new HubConnectionBuilder()
-                .WithUrl("http://tdc-dotnet-iot.azurewebsites.net/IotServerHub")
+                .WithUrl("http://aifestconf.azurewebsites.net/IotServerHub")
                 .Build();
 
             hubConnection.On<bool>("SendStateToDevice", (state) =>

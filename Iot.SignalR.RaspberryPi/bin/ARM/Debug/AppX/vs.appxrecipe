@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>FEOKUMA-VOSTRO</Machine>
+    <Machine>DELL-VOSTRO</Machine>
     <WindowsUser>feoku</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>b24b640c-9c77-4e7c-85f1-3cfb6fc0f396</PackageIdentityName>
     <PackageIdentityPublisher>CN=feoku</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>0EAF5391A89E9B9AE81C9B28B86510CAB52AD3043DF215E693E40A3C547BFC80</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>62DD29BD66C8C684B0FDA84C892AF094D067C04E90A68A4274E734F11968C23D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b24b640c-9c77-4e7c-85f1-3cfb6fc0f396_1.0.0.0_arm__tf0tchpqmnngt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b24b640c-9c77-4e7c-85f1-3cfb6fc0f396_tf0tchpqmnngt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>b24b640c-9c77-4e7c-85f1-3cfb6fc0f396</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-08T02:47:56.855</Modified>
+      <Modified>2019-12-12T17:54:45.335</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Iot.SignalR.RaspberryPi.exe">
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Iot.SignalR.RaspberryPi.exe">
       <PackagePath>entrypoint\Iot.SignalR.RaspberryPi.exe</PackagePath>
-      <Modified>2019-09-08T02:47:55.982</Modified>
+      <Modified>2019-12-12T17:54:44.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\feoku\.nuget\packages\iot.fluentapi\1.0.0\lib\netcore\Porrey.Uwp.IoT.FluentApi.dll">
       <PackagePath>Porrey.Uwp.IoT.FluentApi.dll</PackagePath>
@@ -122,13 +122,13 @@
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2018-03-24T20:44:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-arm\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\feoku\.nuget\packages\runtime.win10-arm.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-arm\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2019-03-13T01:22:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\.nuget\packages\system.device.gpio\0.1.0-prerelease.19369.3\runtimes\win\lib\netstandard2.0\System.Device.Gpio.dll">
+    <AppxPackagedFile Include="C:\Users\feoku\.nuget\packages\system.device.gpio\1.0.0\runtimes\win\lib\netstandard2.0\System.Device.Gpio.dll">
       <PackagePath>System.Device.Gpio.dll</PackagePath>
-      <Modified>2019-07-19T20:33:22.000</Modified>
+      <Modified>2019-09-21T00:28:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\feoku\.nuget\packages\system.io.pipelines\4.5.2\lib\netstandard2.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
@@ -154,60 +154,6 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T21:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-06-20T02:05:14.078</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-06-13T01:03:37.422</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T01:03:37.422</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T01:03:37.422</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\Square44x44Logo.scale-200.png">
-      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T01:03:37.422</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T01:03:37.422</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T01:03:37.422</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\Wide310x150Logo.scale-200.png">
-      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T01:03:37.422</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Iot.SignalR.RaspberryPi.xr.xml">
-      <PackagePath>Iot.SignalR.RaspberryPi.xr.xml</PackagePath>
-      <Modified>2019-09-08T02:47:55.678</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\App.xbf">
-      <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-09-08T02:47:55.689</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-09-08T02:47:55.690</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
-      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T20:33:42.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\feoku\.nuget\packages\microsoft.iot.devicecore\1.0.8\lib\uap10.0\Microsoft.IoT.DeviceCore\Microsoft.IoT.DeviceCore.xr.xml">
       <PackagePath>Microsoft.IoT.DeviceCore\Microsoft.IoT.DeviceCore.xr.xml</PackagePath>
       <Modified>2017-02-07T17:44:52.000</Modified>
@@ -216,67 +162,121 @@
       <PackagePath>Microsoft.IoT.DeviceHelpers\Properties\Microsoft.IoT.DeviceHelpers.rd.xml</PackagePath>
       <Modified>2017-02-07T17:46:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\resources.pri">
-      <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-09-08T00:57:07.093</Modified>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-12-12T14:38:21.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\feoku\Development\dotnet-2.2\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Core\Iot.SignalR.RaspberryPi.exe">
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-12-12T14:38:21.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-12T14:38:21.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-12T14:38:21.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-12T14:38:21.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-12T14:38:21.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-12T14:38:21.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-12T14:38:21.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Iot.SignalR.RaspberryPi.xr.xml">
+      <PackagePath>Iot.SignalR.RaspberryPi.xr.xml</PackagePath>
+      <Modified>2019-12-12T14:38:21.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-12-12T15:01:50.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-12-12T15:01:50.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T20:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-12-12T17:54:44.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\feoku\Dev\Iot.SignalR.RaspberryPi\Iot.SignalR.RaspberryPi\bin\ARM\Debug\Core\Iot.SignalR.RaspberryPi.exe">
       <PackagePath>Iot.SignalR.RaspberryPi.exe</PackagePath>
-      <Modified>2019-09-08T02:47:56.846</Modified>
+      <Modified>2019-12-12T17:54:45.328</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\feoku\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27404.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\feoku\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\feoku\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27404.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\feoku\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\feoku\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27404.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\feoku\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\feoku\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27505.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\feoku\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\feoku\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27505.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\feoku\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\feoku\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27505.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\feoku\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
